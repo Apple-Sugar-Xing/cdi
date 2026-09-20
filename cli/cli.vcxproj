@@ -102,7 +102,7 @@
     </Link>
     <Manifest>
       <AdditionalManifestFiles>app.manifest</AdditionalManifestFiles>
-      <EnableUAC>true</EnableUAC>
+      <EnableUAC>false</EnableUAC>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -126,7 +126,7 @@
     </Link>
     <Manifest>
       <AdditionalManifestFiles>app.manifest</AdditionalManifestFiles>
-      <EnableUAC>true</EnableUAC>
+      <EnableUAC>false</EnableUAC>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
@@ -150,7 +150,7 @@
     </Link>
     <Manifest>
       <AdditionalManifestFiles>app.manifest</AdditionalManifestFiles>
-      <EnableUAC>true</EnableUAC>
+      <EnableUAC>false</EnableUAC>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
